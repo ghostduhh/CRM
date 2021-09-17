@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-icon {
+    object-fit: contain;
+    width: 40px;
+}
+
+.icon-container {
+    width: 150px;
+    border: 2px solid gray;
+    border-radius: 10%;
+}
+.icon-container img, .main-fa-icon {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.icon-container p {
+    color: gray;
+}
+.main-fa-icon {
+    font-size: 40px;
+}
+
+.main-l-picture {
+    margin-top: 40px;
+}
+
+.main-test {
+    border-radius: 1px;
+}
+.main-btn {
+    z-index:0;
+    margin-left: 80px;
+}
+.main-word-btn {
+    text-align: center;
+    width: 250px;
+    border:2px solid white;
+    border-radius: 7px;
+}
+.main-word-index {
+    margin-left: 40px;
+    z-index: 1;
+}
+.main-list {
+    list-style-type: none;
+    margin: 0;
+}

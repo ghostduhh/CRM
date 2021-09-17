@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="landing-main.css">
 <title>Landing Page</title>
 </head>
 <body class="bg-white">
@@ -21,34 +22,34 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="./Images/Logo2.png" alt="" width="186" height="75">
+                        <img src="./Images/Logo2.png" alt="" width="186" height="66">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav m-auto justify-content-between">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item px-3 mx-4 ">
+                                <a class="nav-link text-dark" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                            <li class="nav-item px-3 mx-4 ">
+                                <a class="nav-link text-dark" href="#">Features</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                            <li class="nav-item px-3 mx-4 ">
+                                <a class="nav-link text-dark" href="#">Pricing</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">How It Works</a>
+                            <li class="nav-item px-3 mx-4 ">
+                                <a class="nav-link text-dark" href="#">How It Works</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Support</a>
+                            <li class="nav-item px-3 mx-4 ">
+                                <a class="nav-link text-dark" href="#">Support</a>
                             </li>
                         </ul>
                     </div>
                     <nav class="navbar navbar-light bg-light">
                         <form class="container-fluid justify-content-start">
-                            <button class="btn btn-outline-success me-2" type="button">Sign In</button>
-                            <button class="btn btn-sm btn-outline-secondary" type="button">Try It Free</button>
+                            <button class="btn btn-outline-primary me-2" type="button"> Sign In </button>
+                            <button class="btn btn-primary" type="button">Try It Free</button>
                         </form>
                     </nav>
                 </div>
@@ -57,19 +58,19 @@
 
         <!-- Focus on your business -->
         <div class="row">
-            <div class="col">
-                <h1>Focus on<br> Your Business</h1>
-                <h3>Let Us Handle Everything Else</h3>
-                <p>Subscription Billing, powered with revenue retention tools and a seamless customer experience - without the technical hurdles. </p>
-                <button type="button" class="btn btn-primary btn-lg">Sign Up Free <i class="fas fa-angle-double-right"></i></button>
-                <button type="button" class="btn btn-outline-primary btn-lg"> <i class="fas fa-comment-dots"></i>Chat With Us</button>
-                <p>Already using DoubleTap? Sign In</p>
-                <p>Free 14 day trial  <i class="fas fa-circle"></i> Manage Customers in Minutes  <i class="fas fa-circle"></i> Cancel at Anytime</p>
+            <div class="col mt-5 pt-3 ms-5 ps-5">
+                <h1 class="fs-1 fw-bold">Focus on<br> Your Business</h1>
+                <h3 class="fs-3">Let Us Handle Everything Else</h3>
+                <p class="fs-5 text-secondary">Subscription Billing, powered with revenue retention tools and a <br> seamless customer experience - without the technical hurdles. </p><br>
+                <button type="button" class="btn btn-primary btn-lg fw-bold">Sign Up Free&nbsp;&nbsp; <i class="fas fa-angle-double-right ps-2 fa-xs"></i></button>
+                <button type="button" class="btn btn-outline-primary btn-lg fw-bold"> <i class="fas fa-comment-dots fa-lg"></i>  &nbsp;Chat With Us</button><br>
+                <p class="fs-5 text-secondary mt-3">Already using <span class="fw-bold">Double</span>Tap? <span class="fw-bold">Sign In</span></p>
+                <p ><small>Free 14 day trial &nbsp; <i class="fas fa-circle text-primary fa-xs"></i>&nbsp;&nbsp; Manage Customers in Minutes &nbsp;&nbsp; <i class="fas fa-circle text-primary fa-xs"></i> &nbsp;&nbsp;Cancel at Anytime</small></p>
             </div>
 
             <!-- Icons -->
-            <div class="col">
-                <img src="./Images/Header-Side-1.png" alt="icons" height="700">
+            <div class="col mt-3">
+                <img src="./Images/Header-Side-1.png" alt="icons" height="555" width="500">
             </div>
             <hr>
         </div>
@@ -79,7 +80,52 @@
     <!-- Main Content -->
         <!-- Double Tap -->
         <div class="row">
+            <div class="col d-flex justify-content-center align-items-center flex-column">
+                <h3 class="mb-4">Start to Explore Double Tap</h3>
+                <p class="w-75 text-center mb-5">A new and better way for smalll businesses to mange their customer base, payments and keep track of internal tasks.</p>
+                <div class="d-flex justify-content-around w-100 mb-5">
+                    <div class="icon-container d-flex flex-column align-items-center justify-content-center">
+                        <i class="fas fa-dollar-sign main-fa-icon"></i>
+                        <p class="">Payments</p>
+                    </div>
+                    <div class="icon-container d-flex flex-column align-items-center justify-content-center">
+                        <img class="rounded main-icon" src="images/person.png">
+                        <p class="">Reptain</p>
+                    </div>
 
+                    <div class="icon-container d-flex flex-column align-items-center justify-content-center">
+                        <i class="fas fa-signal main-fa-icon"></i>
+                        <p class="">Reporting</p>
+                    </div>
+
+                    <div class="icon-container d-flex flex-column align-items-center justify-content-center">
+                        <img class="rounded main-icon" src="images/arrow.png">
+                        <p class="">Convert</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-5 rounded border border-secondary h-100">
+                    <div class="b-2 col-4 h-100 mt-5 pt-5">
+                        <img class="main-l-picture w-100" src="images/cc.png">
+                    </div>
+                    <div class="main-test col-8 bg-primary text-white p-5">
+                        <h3 class="py-4">Start accepting payments with Ease</h3>
+                        <h5 class="pb-4">Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your products and services.</h5>
+                        <ul class="main-list mb-5">
+                            <li><p>- Accept credit & debit cards, Paypal, ACH, Apple pay and more with the flick of a switch.</p></li>
+                            <li><p>- Accept transactions in up to 32 different currencies.</p></li>
+                            <li><p>- Process transactions in up to 32 different currencies.</p></li>
+                            <li><p>- Accept transactions in up to 32 different currencies.</p></li>
+                            <li><p>- Process transactions in up to 32 different currencies.</p></li>
+                        </ul>
+                        <div class="pt-3 mb-3">
+                            <button type="button" class="main-word-btn btn border-white text-white mb-5"><span class="main-word-index">Learn More</span> <i class="main-btn fas fa-greater-than"></i></button>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+            </div>
 
         </div>
 

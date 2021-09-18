@@ -37,9 +37,20 @@
 .main-word-btn {
     text-align: center;
     width: 250px;
+    background-color: #1266F1;
     border:2px solid white;
     border-radius: 7px;
+    color:white;
+    padding: 10px 26px;
 }
+
+.main-word-btn:hover {
+    cursor: pointer;
+    color: #1266F1;
+    border:2px solid #1266F1;
+    background-color: white;
+}
+
 .main-word-index {
     margin-left: 40px;
     z-index: 1;
@@ -47,4 +58,103 @@
 .main-list {
     list-style-type: none;
     margin: 0;
+}
+.main-need {
+    padding: 0px 96px;
+    position: relative;
+    width: 570px;
+}
+.main-need-img-bg {
+    z-index: 0;
+    width:155px;
+}
+.main-need-img {
+    z-index: 1;
+    width: 75px;
+    position: absolute;
+    top: 50px;
+    right: 248px;
+}
+.main-need-img-i {
+    z-index: 1;
+    width: 75px;
+    position: absolute;
+    top: 45px;
+    right: 247px;
+    font-size: 70px;
+}
+
+.main-need-img-i2 {
+    z-index: 1;
+    width: 75px;
+    position: absolute;
+    bottom: 128px;
+    right: 250px;
+    font-size: 55px;
+}
+
+.main-solutions {
+    height:50px;
+    margin-bottom: 80px;
+}
+.main-need-container {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main-need-container-i1, .main-need-container-i2 {
+    display: flex;
+    height: 260px;
+    justify-content: space-around;
+    margin-bottom: 140px;
+}
+@media only screen and (max-width: 1005px){
+    .main-need-container {
+        margin: 0px auto;
+        display: flex;
+
+        width: 100%;
+
+    }
+    .main-sol-container {
+        height: auto;
+    }
+    .main-need-container-i1, .main-need-container-i2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .main-need-img-i2 {
+        z-index: 1;
+        width: 75px;
+        position: absolute;
+        bottom: 214px;
+        right: 250px;
+        font-size: 55px;
+    }
+}
+
+
+.main-sol-btn {
+    color: black;
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 4px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.main-sol-btn:hover {
+    text-align: center;
+    background-color: #1266F1;
+    border:2px solid #478bf8;
+    border-radius: 7px;
+    color:white;
+    padding: 4px 20px;
 }
